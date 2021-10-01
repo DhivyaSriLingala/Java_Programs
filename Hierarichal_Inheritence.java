@@ -19,7 +19,7 @@ class Cat extends Animal
         System.out.println("meowing...");
     }
 }
-public class TestInheritance3
+class TestInheritance3
 {
     public static void main(String args[])
     {
