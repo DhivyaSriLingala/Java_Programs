@@ -1,17 +1,19 @@
-class Sample
+class Divi
 {
-    int disp(int x)
+    static double divide(int a,double b)
     {
-        return x;
+        return(a/b);
     }
-    double disp(int y)
+    static double divide(double a,int b)
     {
-        return y;
+        return(a/b);
     }
-    public static void main(String args[])
+}
+class TestOverloading2
+{
+    public static void main(String[] args)
     {
-        Sample s = new Sample();
-        System.out.printIn("Value of x : " + s.disp(5));
-        System.out.printIn("Value of y : " + s.disp(6.5));
+        System.out.println(Divi.divide(17,2.0));  
+        System.out.println(Divi.divide(10.4,2));
     }
 }
